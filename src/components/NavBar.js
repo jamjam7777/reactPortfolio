@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react"
-import { Navbar, Container, Nav } from "react-bootstrap"
-import { faFontAwesome } from "@fortawesome/free-brands-svg-icons";
+import { useState, useEffect } from "react";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faInstagram, faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -44,16 +44,16 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/jamie-devine"><faFontAwesome icon={faLinkedin} inverse/> </a>  
+              <a href="https://www.linkedin.com/in/jamie-devine"><FontAwesomeIcon icon={faLinkedin} inverse/> </a>  
               <a href="https://github.com/jamjam7777">
-            <faFontAwesome icon={faGithub} inverse/>  </a> 
+            <FontAwesomeIcon icon={faGithub} inverse/>  </a> 
               <a href="https://discordapp.com/users/953099345329274981">
-            <faFontAwesome icon={faDiscord} inverse/>
+            <FontAwesomeIcon icon={faDiscord} inverse/>
           </a>  
               <a href="https://www.instagram.com/jamiejdevine/">
-            <faFontAwesome icon={faInstagram} inverse/> </a> 
+            <FontAwesomeIcon icon={faInstagram} inverse/> </a> 
             </div>
-            <button className="vvd" onClick={() => console.log()}><span>Let's Connect</span>
+            <button className="vvd" onClick={() => console.log()}><span>Say Hello</span>
             </button>
           </span>
         </Navbar.Collapse>
