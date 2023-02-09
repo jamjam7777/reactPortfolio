@@ -35,13 +35,13 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-            <Nav.Link href="#portfolio" className={activeLink === 'portfolio' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('portfolio')}>Projects</Nav.Link>
+            <Nav.Link href="#Portfolio" className={activeLink === 'Portfolio' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Portfolio')}>Work</Nav.Link>
             <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
           </Nav>
-          <span className="email-link">
-            <a className="contact" onClick={() => console.log()} href="mailto:jamjamportfolio@gmail.com" rel="noopener noreferrer" target="_blank"><span >Say Hello</span>
-            </a>
-          </span>
+          <Nav.Link>
+          <a className="email-link" onClick={() => window.location = 'mailto:jamjamportfolio@gmail.com'}>
+Say Hello</a></Nav.Link>
+            
         </Navbar.Collapse>
   </Container>
     </Navbar>
