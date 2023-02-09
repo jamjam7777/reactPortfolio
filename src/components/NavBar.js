@@ -39,7 +39,7 @@ export const NavBar = () => {
             <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
           </Nav>
           <span className="email-link">
-            <a className="contact" onClick={() => console.log()} href="mailto:jamjamportfolio@gmail.com" rel="noopener noreferrer" target="_blank"><span>Say Hello</span>
+            <a className="contact" onClick={() => console.log()} href="mailto:jamjamportfolio@gmail.com" rel="noopener noreferrer" target="_blank"><span >Say Hello</span>
             </a>
           </span>
         </Navbar.Collapse>

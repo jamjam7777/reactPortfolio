@@ -3,32 +3,39 @@ import { Container } from "react-bootstrap";
 import { Nav } from "rsuite";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faInstagram, faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faStar } from "@fortawesome/free-regular-svg-icons";
 
 
 
 export const SocialNav = () => {
     return (
-       
-      <Container className="SocialNav">
-    <div className="social-icon">
-      <nav vertical>
+       <Container className="socialNav">
+      <div>
+      <Nav vertical>
+      <a><FontAwesomeIcon icon="faStar" /></a>  
+      </Nav>
+      </div>
+      <div className="social-icon">
+      <Nav vertical>
     <a href="https://www.linkedin.com/in/jamie-devine"><FontAwesomeIcon icon={faLinkedin} inverse/> </a>  
-    </nav>
-    <nav vertical>
+    </Nav>
+    <Nav vertical>
     <a href="https://github.com/jamjam7777">
   <FontAwesomeIcon icon={faGithub} inverse/>  </a> 
-  </nav>
-  <nav vertical>
+  </Nav>
+  <Nav vertical>
     <a href="https://discordapp.com/users/953099345329274981">
   <FontAwesomeIcon icon={faDiscord} inverse/>
 </a>  
-</nav>
-<nav vertical>
+</Nav>
+<Nav vertical>
     <a href="https://www.instagram.com/jamiejdevine/">
   <FontAwesomeIcon icon={faInstagram} inverse/> </a> 
-  </nav>
+  </Nav>
   </div>
   </Container>
   
     )
-}
+};
+
+export default SocialNav;
