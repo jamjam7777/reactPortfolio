@@ -11,10 +11,7 @@ export const Banner = () => {
             <h1>Welcome</h1>
             <h1>to my Portfolio</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Hi! You found me. I am a fullstack developer, a gamer, foodie, and archaeology nerd. I love networking and meeting people. Currently enjoying cerating with react and react native.  
             </p>
             <button
               onClick={() =>
