@@ -1,41 +1,27 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { PortfolioCards } from './PortfolioCards';
 import 'animate.css';
-import TrackVisibility from "react-on-screen";
+import TrackVisibility from 'react-on-screen';
 
 export const Portfolio = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl:"",
+      title: "React",
+      description: "Photo Portfolio",
+      imgUrl:"https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/adventures.png"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: "",
+      title: "React Native",
+      description: "La Gringa Loca Art",
+      imgUrl: "https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/gringa.png"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: "",
+      title: "Html/bootstrap",
+      description: "My portfolio",
+      imgUrl: "https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/portfolio.png"
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: "",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: "",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: "",
-    },
+
   ];
 
   return (
@@ -47,22 +33,13 @@ export const Portfolio = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Check out my work</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Here are a few projects I have designed and created. A react photo portfolio site to showcase travel photos. A react native app featuring the quirky art by La Gringa Loca. And my alternative portfolio website created in html. All three showcase examples of my creativity, fresh ideas, and aestetics.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
                       <Row>
+                        <Col>
                         {
                           projects.map((project, index) => {
                             return (
@@ -73,22 +50,15 @@ export const Portfolio = () => {
                             )
                           })
                         }
+                        </Col>
                       </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
-              </div> 
-}</TrackVisibility>
+              </div>}
+            </TrackVisibility>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src=""></img>
-    </section>
-  )                 
-};
+      </section>
+  )
+}
