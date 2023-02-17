@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -10,17 +9,21 @@ html {
   scroll-padding-top: 80px;
 }
 
-
 body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
   background-color: #271539 !important;
-  color:rgb(228, 233, 237) !important;
-  font-family: 'Centra', sans-serif;
+  color: rgb(228, 233, 237) !important;
+  font-family: "Centra", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -32,12 +35,12 @@ nav.navbar {
   width: 100%;
   top: 0;
   z-index: 9999;
-  transition:  0.32s ease-in-out;
+  transition: 0.32s ease-in-out;
   justify-content: flex-end;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color:  #271539;
+  background-color: #271539;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -50,62 +53,59 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    opacity: 1;
+  opacity: 1;
 }
 span.navbar-text {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.social-icon { 
-    position: fixed; 
-    right: 0; 
-    transition: .5s ease; 
-    overflow-x: hidden; 
-    padding-top: 300px; 
-    display: flex; 
-    flex-direction: column; 
-    align-items:last baseline
-
-      
+.social-icon {
+  position: fixed;
+  right: 0;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
 }
 .social-icon a {
-    width: 42px;
-    height: 42px;
-    display: inline-flex;
-    border-radius: 50%;
-    margin-right: 10px;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .social-icon a:hover {
-    width: 42px;
-    height: 42px;
-    background-color:  rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-	  transition: 0.3s ease-in-out;
+  width: 42px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
 }
 .social-icon a:hover::before {
-    transform: scale(1);
+  transform: scale(1);
 }
 
 .email-link {
   font-weight: 600;
-  color: #ede2e2;;
-  border: 3px solid  rgba(255, 255, 255, 0.5);
+  color: #ede2e2;
+  border: 3px solid rgba(255, 255, 255, 0.5);
   padding: 18px 34px;
   font-size: 22px;
   margin-left: 18px;
-	position: relative;
-	background-color: transparent;
+  position: relative;
+  background-color: transparent;
 }
 .email-link {
   z-index: 1;
-  
 }
 .email-link:hover {
-  background-color:  rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   left: 0;
   top: 0;
   z-index: -1;
@@ -119,7 +119,11 @@ span.navbar-text {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 35px;
   margin-bottom: 16px;
@@ -135,7 +139,7 @@ span.navbar-text {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -172,12 +176,12 @@ span.navbar-text {
   position: relative;
 }
 .project h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -187,39 +191,32 @@ span.navbar-text {
 }
 
 .proj-imgbx {
-  position: relative;
-  border-radius: 30px;
+  border-radius: 18px;
   overflow: hidden;
   margin-bottom: 120px;
-}
-.proj-imgbx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  opacity: 0.75;
-  position: absolute;
-  width: 100%;
-  height: 0;
+  /* content: ""; */
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  opacity: 0.55;
+  width: 500px;
+  height: 600px;
   transition: 0.4s ease-in-out;
+  position: relative;
+  
+  
 }
-.proj-imgbx:hover::before {
-  height: 100%;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  opacity: 0.75;
-  position: absolute;
+.proj-imgbx:hover {
+  opacity: 1;
 }
+
 .proj-txtx {
-  position: absolute;
   text-align: center;
   top: 65%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
+  opacity: 1;
   width: 100%;
 }
-.proj-imgbx:hover .proj-txtx {
-  top: 50%;
-  opacity: 1;
+.proj-txtx:hover {
+  opacity: 0;
 }
 .proj-txtx h4 {
   font-size: 30px;
@@ -233,14 +230,14 @@ span.navbar-text {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-.background-image-right {
+/* .background-image-right {
   top: 20%;
   position: absolute;
   bottom: 0;
   width: 35%;
   right: 0;
   z-index: -4;
-}
+} */
 
 .about h1 {
   font-size: 40px;
@@ -252,27 +249,26 @@ span.navbar-text {
   display: block;
 }
 .about p {
-  color: #B8B8B8;
+  color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
 
-.about img {
-  width: 70%;
-  border-radius: 18%;
+.about-img {
+  width: 80%;
+  border-radius: 8%;
 }
 
 .footer {
   padding: 0 0 50px 0;
 }
 
-
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
   align-items: center;
@@ -291,11 +287,11 @@ span.navbar-text {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .footer-icons a:hover {
-    width: 42px;
-    height: 42px;
-    background-color:  rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-    transition: 0.3s ease-in-out;
+  width: 42px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
 }
 
 .footer-icons a:hover {
@@ -303,9 +299,6 @@ span.navbar-text {
 }
 
 @media (max-width: 1080px) {
-  
 }
 @media (max-width: 768px) {
-  
-
 }

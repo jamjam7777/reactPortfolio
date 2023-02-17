@@ -25,7 +25,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
             <img
               src="https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/mug.jpg"
-              alt="Header Img"
+              className="Header Img"
             />
           </Col>
         </Row>
