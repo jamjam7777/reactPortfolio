@@ -26,7 +26,7 @@ export const Portfolio = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="portfolio" id="portfolio">
       <Container>
         <Row>
           <Col size={12}>
@@ -51,3 +51,5 @@ export const Portfolio = () => {
     </section>
   );
 };
+
+export default Portfolio;

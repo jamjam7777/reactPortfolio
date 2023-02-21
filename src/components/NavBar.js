@@ -1,19 +1,18 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { NavDropdown } from "react-bootstrap";
 
 
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
-    const [scrolled, seScrolled] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
         const onScroll = () => {
             if (window.scrollY > 50) {
-                seScrolled(true);
+                setScrolled(true);
             } else {
-                seScrolled(false);
+                setScrolled(false);
             }
         }
 
@@ -36,8 +35,8 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-            <Nav.Link href="#work" className={activeLink === 'work' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('work')}>Work</Nav.Link>
-            <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
+            <Nav.Link href="#Portfolio" className={activeLink === 'Work' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Portfolio')}>Work</Nav.Link>
+            <Nav.Link href="#About" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
           </Nav>
           <Nav.Link>
           <a className="email-link" onClick={() => window.location = 'mailto:jamjamportfolio@gmail.com'} style={{ textDecoration: 'none' }} >
@@ -47,4 +46,4 @@ Say Hello</a></Nav.Link>
   </Container>
     </Navbar>
     )
-}
+} 
