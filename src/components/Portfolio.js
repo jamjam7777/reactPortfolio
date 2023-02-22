@@ -8,18 +8,21 @@ export const Portfolio = () => {
     {
       title: "React",
       description: "Photo Portfolio",
+      URL: "https://jamjam7777.github.io/jamjamadventures/",
       imgUrl:
         "https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/adventures.png",
     },
     {
       title: "React Native",
       description: "La Gringa Loca Art",
+      URL: "https://www.etsy.com/shop/TheGringaLoca?ref=seller-platform-mcnav",
       imgUrl:
         "https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/gringa.png",
     },
     {
       title: "Html/bootstrap",
       description: "My portfolio",
+      URL: "https://jamjam7777.github.io/jamjamportfolio",
       imgUrl:
         "https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/portfolio.png",
     },
