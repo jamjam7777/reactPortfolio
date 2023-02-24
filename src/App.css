@@ -175,7 +175,7 @@ span.navbar-text {
   width: 70%;
 }
 
-.proj-imgbx {
+.work-img {
   border-radius: 18px;
   overflow: hidden;
   margin-bottom: 80px;
@@ -190,22 +190,18 @@ span.navbar-text {
   max-height: 400px;
   transition: 0.4s ease-in-out;
   position: relative;
-  
-  
-  
 }
-.proj-imgbx:hover {
+.work-img:hover {
   opacity: 1;
 }
-
-.proj-txtx {
+.work-img-txt {
   text-align: center;
   top: 65%;
   left: 50%;
   opacity: 1;
   width: 100%;
 }
-.proj-txtx:hover {
+.work-img-txt:hover {
   opacity: 0;
 }
 .proj-txtx h4 {
@@ -219,6 +215,22 @@ span.navbar-text {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+}
+
+.work-p {
+  margin-bottom: 80px;
+  margin-top: 130px;
+  margin-left: 20px;
+  max-width: 600px;
+  max-height: 400px;
+  font-size: 65px;
+  font-weight: 500px;
+  letter-spacing: 0.8px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  
+
 }
 
 .about h1 {
@@ -236,6 +248,7 @@ span.navbar-text {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  display: block;
 }
 
 .about-img {
@@ -284,6 +297,6 @@ span.navbar-text {
 }
 @media (max-width: 768px) {
 .email-link {
-  opacity: 0;
+  display: none;
 }
 }
