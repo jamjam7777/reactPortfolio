@@ -27,7 +27,7 @@ export const NavBar = () => {
     }
 
     return (
-        <Navbar expand="md" className={scrolled ? 'scrolled': ""}>
+        <Navbar collapseOnSelect expand="sm" variant='dark' className={scrolled ? 'scrolled': ""}>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -40,8 +40,7 @@ export const NavBar = () => {
           </Nav>
           <Nav.Link>
           <a className="email-link" onClick={() => window.location = 'mailto:jamjamportfolio@gmail.com'} style={{ textDecoration: 'none' }} >
-Say Hello</a></Nav.Link>
-            
+Say Hello</a></Nav.Link>   
         </Navbar.Collapse>
   </Container>
     </Navbar>
