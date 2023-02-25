@@ -44,10 +44,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
 }
-span.navbar-text {
-  display: flex;
-  align-items: center;
-}
+
 .social-icon {
   position: fixed;
   right: 0;
@@ -154,15 +151,13 @@ span.navbar-text {
 .banner img {
   width: 80%;
   border-radius: 18%;
+  margin-left: 30px;
 }
 
-/* .work {
-  padding: 80px;
-  position: relative;
-} */
 .work h2 {
   font-size: 45px;
   font-weight: 700;
+  margin-top: 20px;
   text-align: center;
   display: block;
 }
@@ -177,8 +172,10 @@ span.navbar-text {
   text-align: justify;
 }
 
-.work-img {
+
+.work-img img{
   border-radius: 18px;
+  display: flex;
   overflow: hidden;
   margin-bottom: 80px;
   margin-top: 80px;
@@ -188,13 +185,12 @@ span.navbar-text {
     rgba(39, 27, 75, 0.5) 111.58%
   );
   opacity: 0.55;
-  max-width: 600px;
-  max-height: 400px;
+  width: 96%;
   transition: 0.4s ease-in-out;
-  position: relative;
 }
 .work-img:hover {
   opacity: 1;
+  background: 0;
 }
 .work-img-txt {
   text-align: center;
@@ -206,32 +202,27 @@ span.navbar-text {
 .work-img-txt:hover {
   opacity: 0;
 }
-.proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
-}
-.proj-txtx span {
+
+.work-textspan {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
 }
 
-.work-p {
-  margin-bottom: 80px;
-  margin-top: 130px;
-  margin-left: 20px;
-  max-width: 600px;
-  max-height: 400px;
-  font-size: 65px;
-  font-weight: 500px;
+.project-p {
+  color: #b8b8b8;
+  font-size: 18px;
+  margin-top: 110px;
   letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
   display: block;
-  align-items: center;
-  justify-content: center;
   text-align: justify;
+}
+
+.project-header {
+  text-align: center;
 }
 
 .about h1 {
@@ -254,22 +245,23 @@ span.navbar-text {
 }
 
 .about-img {
-  width: 80%;
+  width: 90%;
   border-radius: 8%;
+  margin-left: 10px
+
 }
 
 .footer {
   padding: 0 0 50px 0;
+  margin-top: 30px;
 }
 
 .footer p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 10px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer-icons a {
@@ -289,10 +281,6 @@ span.navbar-text {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   transition: 0.3s ease-in-out;
-}
-
-.footer-icons a:hover {
-  transform: scale(1);
 }
 
 @media (max-width: 1080px) {
