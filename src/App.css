@@ -112,7 +112,7 @@ span.navbar-text {
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 35px;
   margin-bottom: 16px;
-  display: inline-block;
+  display: block;
 }
 .banner h1 {
   font-size: 65px;
@@ -156,23 +156,25 @@ span.navbar-text {
   border-radius: 18%;
 }
 
-.portfolio {
+/* .work {
   padding: 80px;
   position: relative;
-}
-.portfolio h2 {
+} */
+.work h2 {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
+  display: block;
 }
-.portfolio p {
+.work p {
   color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
-  text-align: center;
+  display: block;
   width: 70%;
+  text-align: justify;
 }
 
 .work-img {
@@ -229,8 +231,7 @@ span.navbar-text {
   display: block;
   align-items: center;
   justify-content: center;
-  
-
+  text-align: justify;
 }
 
 .about h1 {
@@ -249,6 +250,7 @@ span.navbar-text {
   line-height: 1.5em;
   width: 96%;
   display: block;
+  text-align: justify;
 }
 
 .about-img {
@@ -299,4 +301,9 @@ span.navbar-text {
 .email-link {
   display: none;
 }
+.work-p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 }

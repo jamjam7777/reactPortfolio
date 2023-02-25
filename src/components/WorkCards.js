@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 
-export const PortfolioCards = ({ title, description, imgUrl, URL, intro }) => {
+export const WorkCards = ({ title, description, imgUrl, URL, intro }) => {
   return (
     <Container>
       <Row>

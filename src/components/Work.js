@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { PortfolioCards } from "./PortfolioCards";
+import { WorkCards } from "./WorkCards";
 import "animate.css";
 
-export const Portfolio = () => {
+export const Work = () => {
   const projects = [
     {
       title: "Adventuretime Gallery",
@@ -31,7 +31,7 @@ export const Portfolio = () => {
   ];
 
   return (
-    <section className="portfolio" id="portfolio">
+    <section className="work" id="work">
       <Container>
         <Row>
           <Col size={12}>
@@ -48,7 +48,7 @@ export const Portfolio = () => {
         <Row>
           <Col>
             {projects.map((project, index) => {
-              return <PortfolioCards key={index} {...project} />;
+              return <WorkCards key={index} {...project} />;
             })}
           </Col>
         </Row>
@@ -57,4 +57,4 @@ export const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Work;
