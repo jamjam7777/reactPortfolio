@@ -9,9 +9,6 @@ export const WorkCards = ({ title, description, imgUrl, URL, intro }) => {
             <a href={URL} target="_blank">
               <img src={imgUrl} />
             </a>
-            <div className="work-img-txt">
-              <h4>{title}</h4>
-            </div>
           </div>
         </Col>
         <Col xs={12} md={6} xl={5}>
