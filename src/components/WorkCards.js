@@ -6,7 +6,7 @@ export const WorkCards = ({ title, description, imgUrl, URL, intro }) => {
       <Row>
         <Col xs={12} md={6} xl={7}>
           <div className="work-img">
-            <a href={URL}>
+            <a href={URL} target="_blank">
               <img src={imgUrl} />
             </a>
             <div className="work-img-txt">

@@ -9,29 +9,28 @@ export const About = () => {
             <h1>About Me</h1>
             <p>
               What can I say? Graduated from a fullstack bootcamp. My background
-              is in business. I have owned my own marketing company and designed
-              websites, and designed full marketing packages for clients. I have
-              also worked in a large corporation heavily relying on the Oracle
+              is in business. I have owned my own marketing company where I designed
+              websites, and created full marketing packages for clients. I have
+              also worked in a large corporation heavily relying on the Oracle/NetSuite
               inventory system. I work well in team environments or throw me in
-              a lab and I will solve problems.
+              a lab and I will solve all of your problems.
             </p>
             <p>
               Some fun facts about me. My Dad is latino and my Mom is from the
-              US, I grew up in Chile until I was 18. I used to lead crews of
+              US; I grew up in Chile until I was 18. I used to lead crews of
               archaeology University students at 9,000ft elevation in the
-              wilderness of Colorado during Summers, if you have done that you
-              can do anything. The art found in React Native app is mine, I am
-              La Gringa.
+              wilderness of Colorado during Summers...if you have done that you
+              can do anything. I make funky colorful art using the pseudoname of "la Gringa"
             </p>
             <p>
               Here are a few development libraries and frameworks I am
               proficient in:
             </p>
-            <p>Javascript</p>
-            <p>bootstrap</p>
-            <p>React</p>
-            <p>React Native</p>
-            <p>Node.js</p>
+            <p>*Javascript   *Bootstrap</p>
+            <p>*React   *React Native</p>
+            <p>*Node.js   *GitHub</p>
+            
+           
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img
