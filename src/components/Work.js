@@ -19,7 +19,7 @@ export const Work = () => {
       description: "This React Native app was inspired by affirmations. We all need a good affirmation, but it not always meshes with our current mood. I created an app that gives you an affiramtion based on your mood. Easy to navigate, simple calming colors, and added a function to set reminders or have the affirmation as a widget on your phone",
     },
     {
-      URL: "https://www.etsy.com/shop/TheGringaLoca?ref=seller-platform-mcnav",
+      URL: "https://jamjam7777.github.io/LaGringa/",
       imgUrl:
         "https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/gringa.png",
         title: "La Gringa Art",
