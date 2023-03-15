@@ -12,8 +12,8 @@ export const WorkCards = ({ title, description, imgUrl, URL }) => {
           </div>
         </Col>
         <Col xs={12} md={6} xl={6}>
-          <div className="project-p">
-            <div className="project-header"><h1>{title}</h1></div>
+          <div className="work-p">
+            <div><h1>{title}</h1></div>
             <p>{description}</p>
           </div>
         </Col>

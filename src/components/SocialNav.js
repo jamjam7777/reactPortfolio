@@ -17,19 +17,19 @@ export const SocialNav = () => {
       </div>
       <div className="social-icon">
       <Nav vertical>
-    <a href="https://www.linkedin.com/in/jamie-devine"><FontAwesomeIcon icon={faLinkedin} inverse/> </a>  
+    <a href="https://www.linkedin.com/in/jamie-devine" target="_blank"><FontAwesomeIcon icon={faLinkedin} inverse/> </a>  
     </Nav>
     <Nav vertical>
-    <a href="https://github.com/jamjam7777">
+    <a href="https://github.com/jamjam7777" target="_blank">
   <FontAwesomeIcon icon={faGithub} inverse/>  </a> 
   </Nav>
   <Nav vertical>
-    <a href="https://discordapp.com/users/953099345329274981">
+    <a href="https://discordapp.com/users/953099345329274981" target="_blank">
   <FontAwesomeIcon icon={faDiscord} inverse/>
 </a>  
 </Nav>
 <Nav vertical>
-    <a href="https://www.instagram.com/jamiejdevine/">
+    <a href="https://www.instagram.com/jamiejdevine/" target="_blank">
   <FontAwesomeIcon icon={faInstagram} inverse/> </a> 
   </Nav>
   </div>
