@@ -42,9 +42,8 @@ export const Work = () => {
             <h2>Check out my work</h2>
             <p>
               Here are a few projects I have designed and created. A react photo
-              portfolio site to showcase travel photos. A react native app
-              featuring the quirky art by La Gringa Loca. And my alternative
-              portfolio website created in html. All three showcase examples of
+              portfolio site to showcase travel photos. An affirmations app depending on your mood. A react site featuring the quirky art by La Gringa Loca. And my alternative
+              portfolio website created in html (don't judge I was a newbie...we all get better, right?). All three showcase examples of
               my creativity, fresh ideas, and aestetics.
             </p>
           </Col>
