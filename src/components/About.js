@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import  archy  from "../assets/jpg/archy.jpg";
 
 export const About = () => {
   return (
@@ -34,7 +35,7 @@ export const About = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img
-              src="https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/archy.jpg"
+              src={ archy }
               className="about-img"
             />
           </Col>

@@ -1,13 +1,13 @@
 import { Col, Container, Row } from "react-bootstrap";
 
-export const WorkCards = ({ title, description, imgUrl, URL }) => {
+export const WorkCards = ({ title, description, src, URL }) => {
   return (
     <Container>
       <Row>
         <Col xs={12} md={6} xl={6}>
-          <div className="work-img">
+          <div className="work-img" >
             <a href={URL} target="_blank">
-              <img src={imgUrl} />
+              <img src={src} />
             </a>
           </div>
         </Col>

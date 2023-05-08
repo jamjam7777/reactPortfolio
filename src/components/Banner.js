@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
+import mug from "../assets/jpg/mug.jpg";
 
 export const Banner = () => {
   return (
@@ -24,7 +25,7 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img
-              src="https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/mug.jpg"
+              src={mug}
             />
           </Col>
         </Row>
