@@ -22,7 +22,7 @@ export const Work = () => {
       description: "This React Native app was inspired by affirmations. We all need a good affirmation, but it not always meshes with our current mood. I created an app that gives you an affiramtion based on your mood. Easy to navigate, simple calming colors, and added a function to set reminders or have the affirmation as a widget on your phone",
     },
     {
-      URL: "https://jamjam7777.github.io/LaGringa/",
+      URL: "https://jamjam7777.github.io/lagringa/",
       src:
        gringa,
         title: "La Gringa Art",
